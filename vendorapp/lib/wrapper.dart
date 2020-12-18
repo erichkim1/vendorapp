@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+/*
 import 'package:vendorapp/pages/GPS/googlemap.dart';
 import 'package:vendorapp/pages/GPS/main_map.dart';
 import 'package:vendorapp/pages/GPS/venders_map.dart';
+*/
 import 'package:provider/provider.dart';
 import 'Models/user.dart';
 import 'package:vendorapp/pages/Registration/create_profile.dart';
-import 'pages/ReturningUser/welcom_back_page.dart';
+import 'pages/ReturningUser/welcome_back_page.dart';
 
 class Wrapper extends StatelessWidget {
   @override
