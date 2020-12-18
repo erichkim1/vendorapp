@@ -71,15 +71,6 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-    - family: IndieFlower
-      fonts:
-        - asset: fonts/IndieFlower-Regular.ttf
-    - family: BalooChettan2
-      fonts:
-        - asset: fonts/BalooChettan2-Medium.ttf
-        - asset: fonts/BalooChettan2-Bold.ttf
-          weight: 700
-        - asset: fonts/BalooChettan2-Regular.ttf
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
