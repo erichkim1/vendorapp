@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "868859539057",
+    "project_id": "groomurzvendorapp",
+    "storage_bucket": "groomurzvendorapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868859539057:android:85b79ce7c0be31ff06b5d0",
+        "android_client_info": {
+          "package_name": "com.example.vendorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868859539057-hvo5ogfr5m7805ofudo98iork40e7e59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BT2NjU05TAGu_-Z6_RLhFzQ0WG_kVg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868859539057-hvo5ogfr5m7805ofudo98iork40e7e59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

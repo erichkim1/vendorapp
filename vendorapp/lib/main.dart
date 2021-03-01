@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-
+/*
   bool isCreateProfMode() {
     Preferences pref = Preferences();
     if (pref.getPrefItem('RunMode') == 'RegistrationMode')
@@ -40,4 +40,5 @@ class MyApp extends StatelessWidget {
     else
       return false;
   }
+  */
 }
