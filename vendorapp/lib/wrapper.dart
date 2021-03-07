@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 import 'Models/user.dart';
 import 'package:vendorapp/pages/Registration/create_profile.dart';
 import 'pages/ReturningUser/welcome_back_page.dart';
+import 'pages/payment/stripe_payment.dart';
 
 class Wrapper extends StatelessWidget {
   @override
@@ -21,7 +22,7 @@ class Wrapper extends StatelessWidget {
       print('User is not logged in');
       print('User needs to sign in');
       //return WelcomeBackPage();
-      return CreateProfile();
+      return StripeApp();
       //return VendersMapPage();
       //return MainMap();
     } else {

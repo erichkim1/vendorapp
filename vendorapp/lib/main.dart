@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:vendorapp/Models/local_preferencces.dart';
 import 'package:vendorapp/Models/user.dart';
 import 'package:vendorapp/pages/payment/payment_options.dart';
+import 'package:vendorapp/pages/payment/stripe_payment.dart';
 import 'package:vendorapp/services/auth.dart';
 import 'wrapper.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         home: Wrapper(),
         theme: appTheme,
         routes: {
-          '/home': (context) => PaymentOptions(),
+          '/home': (context) => StripeApp(), // PaymentOptions(),
           /*
           '/main_map': (context) => MainMap(),
           '/login_page': (context) => LoginPage(),

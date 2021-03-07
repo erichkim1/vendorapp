@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 //import 'package:mobilepetgrooming/googlemap.dart';
 import 'package:vendorapp/pages/Registration/email_phone.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:vendorapp/pages/payment/make_payment.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:vendorapp/services/auth.dart';
 import 'package:vendorapp/pages/ReturningUser/sign_in.dart';

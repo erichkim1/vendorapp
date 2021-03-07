@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:vendorapp/pages/payment/make_payment.dart';
 
 class PaymentOptions extends StatefulWidget {
   PaymentOptions({Key key}) : super(key: key);
@@ -13,12 +12,15 @@ class PaymentOptionsState extends State<PaymentOptions> {
     switch (index) {
       case 0:
         // pay via new card
+        print('pay via new card');
+        /*
         Navigator.push(
           context,
           MaterialPageRoute(
             builder: (BuildContext context) => MakePayment(),
           ),
         );
+          */
         break;
       case 1:
         Navigator.pushNamed(context, '/existing_cards');
